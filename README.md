@@ -17,7 +17,7 @@ npm install quickline --save
 
 ```javascript
 
-byLine = require('quicklinev').byLine
+byLine = require('quickline').byLine
 
 
 
