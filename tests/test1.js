@@ -9,7 +9,8 @@ byLine = require('..').byLine
 var linecount = 0;
 
 function process_line(x) {
-    if(x[0] != "#") linecount ++;
+    // if(x[0] != "#") linecount ++;
+    linecount ++;
 }
 
 
@@ -20,7 +21,7 @@ function end() {
 
 var fs = require('fs')
 
-var str = fs.createReadStream( '/var/log/kern.log.1', {encoding:'ascii'} )
+var str = fs.createReadStream( 's', {encoding:'ascii'} )
 
 byLine(str, process_line, end)
 

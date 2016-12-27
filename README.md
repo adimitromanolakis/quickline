@@ -1,13 +1,13 @@
 # byline
 
-Fast line by line parsing of files in node.js.
+Fast line by line parsing of files in node.js. Over 3x the speed of byline module.
 
 
 ## Installation
 
 ```sh
 
-npm install byline --save
+npm install quickline --save
 
 ```
 
@@ -17,7 +17,7 @@ npm install byline --save
 
 ```javascript
 
-byLine = require('byline').byLine
+byLine = require('quicklinev').byLine
 
 
 
@@ -42,6 +42,35 @@ byLine(str, process_line, end)
 
 
 ```
+
+## Speed
+
+
+byLine module speed:
+
+```
+time nodejs tests/test-byline.js
+1022112
+
+real    0m0.782s
+user    0m0.760s
+sys     0m0.060s
+
+```
+
+quickline module speed:
+
+```
+time nodejs tests/test1.js
+1022112
+
+real    0m0.221s
+user    0m0.220s
+sys     0m0.020s
+```
+
+
+
 
 
 

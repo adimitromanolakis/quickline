@@ -1,6 +1,6 @@
 {
-  "name": "byline",
-  "version": "1.0.0",
+  "name": "quickline",
+  "version": "1.0.1",
   "description": "fast line by line parsing of files in node.js Edit",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/adimitromanolakis/byline.git"
+    "url": "git+https://github.com/adimitromanolakis/quickline.git"
   },
   "keywords": [
     "line",
@@ -19,7 +19,7 @@
   "author": "Apostolos Dimitromanolakis",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/adimitromanolakis/byline/issues"
+    "url": "https://github.com/adimitromanolakis/quickline/issues"
   },
-  "homepage": "https://github.com/adimitromanolakis/byline#readme"
+  "homepage": "https://github.com/adimitromanolakis/quickline#readme"
 }
