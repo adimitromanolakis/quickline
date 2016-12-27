@@ -1,0 +1,25 @@
+{
+  "name": "byline",
+  "version": "1.0.0",
+  "description": "fast line by line parsing of files in node.js Edit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adimitromanolakis/byline.git"
+  },
+  "keywords": [
+    "line",
+    "csv",
+    "text",
+    "file"
+  ],
+  "author": "Apostolos Dimitromanolakis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adimitromanolakis/byline/issues"
+  },
+  "homepage": "https://github.com/adimitromanolakis/byline#readme"
+}
