@@ -1,6 +1,6 @@
 {
   "name": "quickline",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "fast line by line parsing of files in node.js Edit",
   "main": "index.js",
   "scripts": {
@@ -13,8 +13,9 @@
   "keywords": [
     "line",
     "csv",
+    "tsv",
     "text",
-    "file"
+    "byline"
   ],
   "author": "Apostolos Dimitromanolakis",
   "license": "MIT",
