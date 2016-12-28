@@ -77,6 +77,17 @@ If your input file is encoded as UTF-8, you can use the following alternative fu
 byLineUTF8 = require('..').byLineUTF8
 ```
 
+## API reference
+
+```javascript
+function byLine(stream, fline, fend);
+```
+```javascript
+function byLineUTF8(stream, fline, fend);
+```
+
+
+
 ## License
 
 MIT
