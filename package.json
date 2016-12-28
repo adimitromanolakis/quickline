@@ -1,6 +1,6 @@
 {
   "name": "quickline",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "fast line by line parsing of files in node.js Edit",
   "main": "index.js",
   "scripts": {
