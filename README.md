@@ -69,10 +69,13 @@ user    0m0.220s
 sys     0m0.020s
 ```
 
+## UTF-8 input files
 
+If your input file is encoded as UTF-8, you can use the following alternative function (which can be about 10% slower):
 
-
-
+```javascript
+byLineUTF8 = require('..').byLineUTF8
+```
 
 ## License
 
