@@ -1,6 +1,11 @@
-# byline
+# quickline
 
 Fast line by line parsing of files in node.js. Over 3x the speed of byline module.
+
+
+[logo]: https://nodei.co/npm/quickline.png?downloads=true&downloadRank=true "text1"
+![npm][logo]
+
 
 
 ## Installation
@@ -11,7 +16,7 @@ npm install quickline --save
 
 ```
 
-## Usage
+## Quickstart
 
 
 
